@@ -108,7 +108,7 @@ h1 {
   margin: 25px 0 28px;
 }
 .testimonial_text:first-child::before {
-  content: url("../img/quotes.svg");
+  content: url("../img/quotes.png");
   width: 29.05px;
   height: 23px;
   position: absolute;
