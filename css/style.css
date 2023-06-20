@@ -62,7 +62,7 @@ body {
   justify-content: flex-end;
   position: relative;
   width: 100%;
-  height: min(30vw, 250px);
+  height: min(32vw, 250px);
 }
 .testimonial__photo img {
   object-fit: cover;
@@ -77,12 +77,9 @@ body {
   background-color: #e97937;
   width: min(20vw, 110px);
 }
-.navigation div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.navigation div {  
   width: 50%;
-  height: min(6vw, 55px);
+  height: min(7vw, 55px);
   cursor: pointer;
   transition: all 0.1s linear;
 }
