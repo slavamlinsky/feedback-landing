@@ -83,17 +83,17 @@ body {
   cursor: pointer;
   transition: all 0.1s linear;
 }
-.navigation div:first-child {
+.navigation__prev {
   opacity: 0.7;
   border-right: 1.1px solid #f59b65;
   background: url("../img/prev-arrow.png") no-repeat center;
 }
-.navigation div:last-child {
+.navigation__next {
   opacity: 1;
   border-left: 1.1px solid #f59b65;
   background: url("../img/next-arrow.png") no-repeat center;
 }
-.navigation div:hover {
+.navigation > div:hover {
   opacity: 1;
   background-color: #e97937;
 }
