@@ -64,10 +64,10 @@ body {
   width: 100%;
   height: min(35vw, 270px);
 }
-.testimonial__photo img {
+.testimonial__photo picture img {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .navigation {
   position: absolute;
@@ -170,8 +170,8 @@ body {
     width: 35%;
     height: auto;
   }
-  .testimonial__photo img {
-    width: 100%;
+  .testimonial__photo picture img {
+    width: 100%;    
     max-width: 582px;
   }
 }
